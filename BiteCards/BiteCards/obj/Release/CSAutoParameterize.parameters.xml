@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="BiteCards.Classes.Context.BrowsingContext-Web.config Connection String" description="BiteCards.Classes.Context.BrowsingContext Connection String used in web.config by the application to access the database." defaultValue="BiteCards.Classes.Context.BrowsingContext_ConnectionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Daniel\\documents\\visual\ studio\ 2012\\Projects\\BiteCards\\BiteCards\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BiteCards.Classes.Context.BrowsingContext']/@connectionString" />
-  </parameter>
-</parameters>
