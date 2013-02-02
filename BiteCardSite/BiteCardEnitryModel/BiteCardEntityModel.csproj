@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BB59CBD-E240-48CF-ADD4-EBB881428B9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BiteCardEntityModel</RootNamespace>
+    <AssemblyName>BiteCardEnitryModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="BiteCardDatabaseContexts.cs" />
+    <Compile Include="Image.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Migrations\201302020417506_firstMigrationforTheBiteCard.cs" />
+    <Compile Include="Migrations\201302020417506_firstMigrationforTheBiteCard.Designer.cs">
+      <DependentUpon>201302020417506_firstMigrationforTheBiteCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302020434137_addedOrderContext_MessageTable.cs" />
+    <Compile Include="Migrations\201302020434137_addedOrderContext_MessageTable.Designer.cs">
+      <DependentUpon>201302020434137_addedOrderContext_MessageTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302020435147_addedOrderContext_MessageTable2.cs" />
+    <Compile Include="Migrations\201302020435147_addedOrderContext_MessageTable2.Designer.cs">
+      <DependentUpon>201302020435147_addedOrderContext_MessageTable2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302020436077_test.cs" />
+    <Compile Include="Migrations\201302020436077_test.Designer.cs">
+      <DependentUpon>201302020436077_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302020441304_addMessage.cs" />
+    <Compile Include="Migrations\201302020441304_addMessage.Designer.cs">
+      <DependentUpon>201302020441304_addMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Price.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Scripts\jquery-1.9.0.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-1.9.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.0.js" />
+    <Content Include="Scripts\jquery-1.9.0.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201302020417506_firstMigrationforTheBiteCard.resx">
+      <DependentUpon>201302020417506_firstMigrationforTheBiteCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302020434137_addedOrderContext_MessageTable.resx">
+      <DependentUpon>201302020434137_addedOrderContext_MessageTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302020435147_addedOrderContext_MessageTable2.resx">
+      <DependentUpon>201302020435147_addedOrderContext_MessageTable2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302020436077_test.resx">
+      <DependentUpon>201302020436077_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302020441304_addMessage.resx">
+      <DependentUpon>201302020441304_addMessage.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

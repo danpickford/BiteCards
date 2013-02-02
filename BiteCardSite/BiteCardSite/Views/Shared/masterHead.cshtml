@@ -1,0 +1,36 @@
+﻿@model BiteCardSite.Models.IndexPage
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/mainStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="Content" class="pageContent">
+        <div id="headerBack">&nbsp;</div>
+        <div id="bodyContainer">
+            <div id="Menu" class="floater">
+                @Html.Partial("partialMenu", Model)
+            </div>
+            <div id="ContentFromView" class="floater">
+                @RenderBody()
+            </div>
+        </div>
+        <div id="footerBack">
+            <div style="width: 80%;">
+                <span class="og" style="font-size: 300%; color: #fff;">Bite</span><span class="og" style="font-size: 100%; color: #fff;">Card</span>
+            </div>
+            <div style="width: 20%;" class="floater">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <div id="headerOverlay">
+        <div id="headerLogo">
+            <span class="og" style="font-size: 500%; color: #fff;">Bite</span><span class="og" style="font-size: 300%; color: #fff;">Card</span>
+        </div>
+    </div>
+</body>
+</html>

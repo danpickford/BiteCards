@@ -1,0 +1,14 @@
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\BiteCardEnitryModel.dll.config
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\BiteCardEnitryModel.dll
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\BiteCardEnitryModel.pdb
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\EntityFramework.dll
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\EntityFramework.xml
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEnitryModel.dll
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEnitryModel.pdb
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.firstMigrationforTheBiteCard.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.csproj.GenerateResource.Cache
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addedOrderContext_MessageTable.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addedOrderContext_MessageTable2.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.test.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMessage.resources

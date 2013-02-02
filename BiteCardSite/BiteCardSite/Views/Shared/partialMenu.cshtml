@@ -1,0 +1,13 @@
+﻿@model BiteCardSite.Models.IndexPage
+@{
+    Layout = null;
+}
+
+@{ foreach (string cat in Model.Categories)
+   {
+    <div class="menuItemDiv">
+        <span class="menuItem">@cat</span><br />
+    </div>
+   }
+    
+}
