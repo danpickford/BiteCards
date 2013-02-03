@@ -15,3 +15,4 @@ C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteC
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMoreSeedData.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.test1.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.removeOrderFK.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.csprojResolveAssemblyReference.cache

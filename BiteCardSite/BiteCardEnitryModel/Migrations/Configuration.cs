@@ -19,7 +19,7 @@ namespace BiteCardEntityModel.Migrations
                 new Category { CategoryId = 1, CategoryName = "Birthday" },
                 new Category { CategoryId = 2, CategoryName = "Wedding" },
                 new Category { CategoryId = 3, CategoryName = "Valentines" },
-                new Category { CategoryId = 4, CategoryName = "Congratulations" },
+                new Category { CategoryId = 4, CategoryName = "Get Well" },
                 new Category { CategoryId = 5, CategoryName = "Thank You" },
                 new Category { CategoryId = 6, CategoryName = "New Job" });
 
