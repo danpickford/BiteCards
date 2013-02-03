@@ -23,3 +23,8 @@ C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\System.Web.WebPage
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\System.Web.WebPages.Razor.xml
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\obj\Debug\BiteCardSite.dll
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\obj\Debug\BiteCardSite.pdb
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\obj\Debug\BiteCardSite.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\BiteCardEnitryModel.dll
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\EntityFramework.dll
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\BiteCardEnitryModel.pdb
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardSite\bin\EntityFramework.xml

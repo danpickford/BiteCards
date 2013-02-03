@@ -1,0 +1,66 @@
+﻿@model BiteCardSite.Models.CardFocus
+@{
+    ViewBag.Title = "CardFocus";
+}
+
+<div id="SubHeader" style="height: 100%; text-align: center;">
+    <div style="height: 12%;">&nbsp;</div>
+    <div>
+        <span class="og" style="font-size: 30px;" onclick="frontClick()">Front </span>
+        <span class="og" style="font-size: 30px;" onclick="insideClick()">Inside </span>
+        <span class="og" style="font-size: 30px;" onclick="BackClick()">Back </span>
+    </div>
+    <div style="height: 12%;">&nbsp;</div>
+    @{
+        if (Model.isLandScape)
+        {
+            <div id="flipbook">
+                <div class="hard" style="background-image: url(@Model.CardImages.FirstOrDefault(x => x.Card.CardId == Model.cardId).ImageUrl); background-size: contain; background-repeat: no-repeat;">Front </div>
+                <div class="hard">Inside Left</div>
+                <div>Inside Right </div>
+                <div class="hard">Back </div>
+            </div>
+            <script type="text/javascript">
+                $("#flipbook").turn({
+                    width: 800,
+                    height: 300,
+                    autoCenter: true
+                });
+            </script>
+
+        }
+        else
+        {
+            <div id="flipbook">
+                <div class="hard" style="background-color: #fff; background-image: url(@Model.CardImages.FirstOrDefault(x => x.Card.CardId == Model.cardId).ImageUrl); background-size: contain; background-repeat: no-repeat;">Front </div>
+                <div class="hard" style="background-color: #eee;"></div>
+                <div style="background-color: #eee;">
+                    <div data-bind="text:to"></div>
+                    <div data-bind="text:message"></div>
+                    <div data-bind="text:from"></div>
+                </div>
+                <div class="hard" style="background-color: #eee;">Back </div>
+            </div>
+            <script type="text/javascript">
+                $("#flipbook").turn({
+                    width: 400,
+                    height: 300,
+                    autoCenter: true
+                });
+            </script>
+
+        }
+    }
+    <input data-bind="value:to"/>
+    <input data-bind="value:message"/>
+    <input data-bind="value:from"/>
+</div>
+<script>
+    function persistToCard() {
+        this.to = ko.observable("To Daniel");
+        this.message = ko.observable("Congratulations on your new job!");
+        this.from = ko.observable("From Bite");
+    }
+
+    ko.applyBindings(new persistToCard());
+</script>

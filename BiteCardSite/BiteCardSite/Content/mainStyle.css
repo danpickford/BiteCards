@@ -28,7 +28,7 @@ body, html
 #headerLogo {
     position: fixed;
     width: 70%;
-    height: 25%;
+    height: 20%;
     left: 15%;
     top: 0;
     background-color: #6f5252;
@@ -71,9 +71,12 @@ span.menuItem {
 div.menuItemDiv {
     background-color: #fafab2;
     transition: all 1s ease-in-out;
+    width: 100%;
+    padding: 10px 0 10px 0;
 }
 
 div.menuItemDiv:hover {
     background-color: #6f5252;
     color: #fff;
+    cursor: hand; cursor: pointer;
 }

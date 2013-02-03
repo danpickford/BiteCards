@@ -9,7 +9,7 @@ namespace BiteCardEntityModel
     public class Image
     {
         public int ImageId { get; set; }
-        public String ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
         public virtual Card Card { get; set; }
     }
 }

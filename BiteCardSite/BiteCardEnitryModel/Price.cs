@@ -9,6 +9,6 @@ namespace BiteCardEntityModel
     public class Price
     {
         public int PriceId { get; set; }
-        public float Total { get; set; }
+        public double Total { get; set; }
     }
 }

@@ -12,3 +12,5 @@ C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteC
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addedOrderContext_MessageTable2.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.test.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMessage.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addSeedDataToAllTablesChangePriceToDouble.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMoreSeedData.resources
