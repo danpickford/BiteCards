@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/mainStyle.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.0.min.js"></script>
+    <script src="http://knockoutjs.com/downloads/knockout-2.2.1.js"></script>
+    <script src="http://www.turnjs.com/lib/turn.min.js"></script>
+</head>
+<body>
+    <div id="Content" class="pageContent">
+        <div id="headerBack">&nbsp;</div>
+        <div id="bodyContainer" style="width: 100%; height: 100%;">
+            <div id="Menu" class="floater" style="padding: 7% 0 6% 0; background-color: #fafab2; width: 15%; height: 75%;">
+                @Html.Partial("partialMenu")
+            </div>
+            <div id="ContentFromView" style="width: 85%; height: 100%;" class="floater">
+                @RenderBody()
+            </div>
+        </div>
+        <div id="footerBack">
+            <div style="width: 80%;">
+                <span class="og" style="font-size: 300%; color: #fff;">Bite</span><span class="og" style="font-size: 100%; color: #fff;">Card</span>
+            </div>
+            <div style="width: 20%;" class="floater">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+    <div id="headerOverlay">
+        <div id="headerLogo">
+            <span class="og" style="font-size: 500%; color: #fff;">Bite</span><span class="og" style="font-size: 300%; color: #fff;">Card</span>
+        </div>
+    </div>
+    <script>
+        function cardFocus(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>

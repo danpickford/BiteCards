@@ -1,0 +1,12 @@
+﻿@{
+    Layout = null;
+}
+
+@{ foreach (string cat in ViewBag.Categories)
+   {
+    <div class="menuItemDiv">
+        <span class="menuItem" onclick="window.location.href = '@Url.Action(cat)'">@cat</span><br />
+    </div>
+   }
+    
+}

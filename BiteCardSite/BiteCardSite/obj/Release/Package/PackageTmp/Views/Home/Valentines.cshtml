@@ -1,0 +1,16 @@
+﻿@model BiteCardSite.Models.Cards
+@{
+    ViewBag.Title = "BiteCard - Valentines";
+}
+
+@{
+    foreach (var card in Model.PageCards)
+    {
+    <div style="height: 12%;">&nbsp;</div>
+    <div class="floater" style="width: 150px; height: 190px;" onclick="cardFocus('@Url.Action("CardFocus", new {cardId = card.cardId})')">
+        <img style="width: 150px; height: 150px;" src="@card.CardFrontImage" />
+        <span class="og">@card.CardName</span>
+    </div>
+    <div style="height: 12%;">&nbsp;</div>
+    }
+}

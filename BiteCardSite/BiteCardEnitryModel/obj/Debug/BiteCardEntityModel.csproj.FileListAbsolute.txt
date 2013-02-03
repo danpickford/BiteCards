@@ -3,7 +3,6 @@ C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\BiteC
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\BiteCardEnitryModel.pdb
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\EntityFramework.dll
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\bin\Debug\EntityFramework.xml
-C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.csprojResolveAssemblyReference.cache
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEnitryModel.dll
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEnitryModel.pdb
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.firstMigrationforTheBiteCard.resources
@@ -14,3 +13,5 @@ C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteC
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMessage.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addSeedDataToAllTablesChangePriceToDouble.resources
 C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.addMoreSeedData.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.test1.resources
+C:\Development\GitHub\BiteCards\BiteCardSite\BiteCardEnitryModel\obj\Debug\BiteCardEntityModel.Migrations.removeOrderFK.resources

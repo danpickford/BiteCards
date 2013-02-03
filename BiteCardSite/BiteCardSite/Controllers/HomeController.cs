@@ -21,7 +21,7 @@ namespace BiteCardSite.Controllers
             {
                 ViewBag.Categories = categories.CardCategories.Select(c => c.CategoryName).ToList();
             }
-            ViewBag.promoURL = "Content/Images/hp-slider-valentines-personalised-cards.png";
+            ViewBag.promoURL = "http://www.danpickford.com/bitecard/Content/Images/hp-slider-valentines-personalised-cards.png";
             return View("Index", currentModel);
         }
 

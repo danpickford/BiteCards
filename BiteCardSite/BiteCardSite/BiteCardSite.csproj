@@ -127,6 +127,7 @@
     <Content Include="Content\Images\love1.jpg" />
     <Content Include="Content\mainStyle.css" />
     <Content Include="Global.asax" />
+    <None Include="Properties\PublishProfiles\BiteDanPickford.pubxml" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.0.js" />
     <Content Include="Scripts\jquery-1.9.0.min.js" />

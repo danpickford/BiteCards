@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="BiteCardEntityModel.BiteCardDatabaseContexts-Web.config Connection String" description="BiteCardEntityModel.BiteCardDatabaseContexts Connection String used in web.config by the application to access the database." defaultValue="BiteCardEntityModel.BiteCardDatabaseContexts_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Development\\GitHub\\BiteCards\\BiteCardSite\\BiteCardSite\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BiteCardEntityModel.BiteCardDatabaseContexts']/@connectionString" />
+  </parameter>
+  <parameter name="BiteCardEntityModel.BiteCardDatabaseContexts_DatabasePublish-Web.config Connection String" description="BiteCardEntityModel.BiteCardDatabaseContexts_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="BiteCardEntityModel.BiteCardDatabaseContexts_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Development\\GitHub\\BiteCards\\BiteCardSite\\BiteCardSite\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BiteCardEntityModel.BiteCardDatabaseContexts_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

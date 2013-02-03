@@ -77,6 +77,14 @@
     <Compile Include="Migrations\201302020638358_addMoreSeedData.Designer.cs">
       <DependentUpon>201302020638358_addMoreSeedData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201302030242214_test1.cs" />
+    <Compile Include="Migrations\201302030242214_test1.Designer.cs">
+      <DependentUpon>201302030242214_test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201302030425093_removeOrderFK.cs" />
+    <Compile Include="Migrations\201302030425093_removeOrderFK.Designer.cs">
+      <DependentUpon>201302030425093_removeOrderFK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Price.cs" />
@@ -113,6 +121,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201302020638358_addMoreSeedData.resx">
       <DependentUpon>201302020638358_addMoreSeedData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302030242214_test1.resx">
+      <DependentUpon>201302030242214_test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201302030425093_removeOrderFK.resx">
+      <DependentUpon>201302030425093_removeOrderFK.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
